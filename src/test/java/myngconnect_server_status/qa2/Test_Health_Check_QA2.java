@@ -60,7 +60,7 @@ Health_check h = new Health_check();
 CSVHandler login_details = new CSVHandler("src/test/resources/login_health_check_qa2.csv");
 String baseurl0_name = login_details.getElementXpath("baseurl0_name");
 h.health_login(driver);
-WebElement ele = driver.findElement(By.xpath("/html/body/div/div[2]/div/div/table/tbody/tr[2]/td[2]/div"));
+WebElement ele = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div[1]/table/tbody/tr[2]/td[2]/div"));
 //Make server CSV driven
 Screenshot.takeElementScreenshot(driver, ele, ele.getLocation(), "base_health_"+baseurl0_name);
 }
@@ -83,7 +83,7 @@ time = str.substring(0,2);
 time +="-"+ str.substring(3,5);
 System.out.println("TIME:"+time);
 synchronized (driver) {driver.wait(15000);}
-WebElement ele = driver.findElement(By.xpath("/html/body/div/div[2]/div/div/table/tbody/tr[2]/td[2]/div"));
+WebElement ele = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div[1]/table/tbody/tr[2]/td[2]/div"));
 String result=null;
 String delivery_mode=null;
 CSVHandler general = null;
