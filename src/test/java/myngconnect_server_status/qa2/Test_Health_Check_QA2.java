@@ -30,7 +30,7 @@ class global
 }
 
 @RunWith(Parameterized.class)
-	public class Test_Health_Check_qa2 extends global{ 
+	public class Test_Health_Check_QA2 extends global{ 
 	String s = "fasle";  
 	private String testEnv;
 	private RemoteWebDriver driver = null;
