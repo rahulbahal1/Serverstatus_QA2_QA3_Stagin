@@ -66,7 +66,7 @@ Screenshot.takeElementScreenshot(driver, ele, ele.getLocation(), "base_health_"+
 }
 
 //Capture and Compare(Ignored) Screenshot
-@Test
+@Ignore 
 public void Test_Health_1_CompareScreenshot()throws Exception{
 Health_check h = new Health_check();
 h.health_login(driver);
@@ -225,44 +225,44 @@ TestAssertion.assertionEquals(driver, "true", global_check);
 */
 }
 
-@Test
+@Ignore 
 public void TestHealth_2_ContentRepository()throws Exception{
 
 	System.out.println("HERE");
 TestAssertion.assertionEquals(driver, "true", content_repository_check);
 }
 
-@Test
+@Ignore 
 public void TestHealth_3_SRI1()throws Exception{
 TestAssertion.assertionEquals(driver, "true", sri1_check);
 }
 
-@Test
+@Ignore 
 public void TestHealth_4_SRI2()throws Exception{
 TestAssertion.assertionEquals(driver, "true", sri2_check);
 }
 
-@Test
+@Ignore 
 public void TestHealth_5_SRI3()throws Exception{
 TestAssertion.assertionEquals(driver, "true", sri3_check);
 }
 
-@Test
+@Ignore 
 public void TestHealth_6_Webassets()throws Exception{
 TestAssertion.assertionEquals(driver, "true", webassets_check);
 }
 
-@Test 
+@Ignore  
 public void TestHealth_7_AuthorizationAPI()throws Exception{
 TestAssertion.assertionEquals(driver, "true", auth_api_check);
 }
 
-@Test
+@Ignore 
 public void TestHealth_8_Databse()throws Exception{
 TestAssertion.assertionEquals(driver, "true", database_check);
 }
 
-@Test
+@Ignore 
 public void TestHealth_09_Wowza()throws Exception{
 TestAssertion.assertionEquals(driver, "false", wowza_check);
 }
