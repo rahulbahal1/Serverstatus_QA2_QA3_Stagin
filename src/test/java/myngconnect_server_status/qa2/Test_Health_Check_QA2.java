@@ -34,7 +34,7 @@ class global
 	String s = "fasle";  
 	private String testEnv;
 	private RemoteWebDriver driver = null;
-	public Test_Health_Check_qa2(String testEnv){
+	public Test_Health_Check_QA2(String testEnv){
 		this.testEnv = testEnv;
 	  }
 		 	
