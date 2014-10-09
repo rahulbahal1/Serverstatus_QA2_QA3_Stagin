@@ -10,12 +10,12 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import com.compro.automation.core.*;
 
 @RunWith(Parameterized.class)
-public class Test_Existing_Credentials_Check_qa2{ 
+public class Test_Existing_Credentials_Check_QA2{ 
 	 
 	private String testEnv;
 	private RemoteWebDriver driver = null;
 	
-	public Test_Existing_Credentials_Check_qa2(String testEnv){
+	public Test_Existing_Credentials_Check_QA2(String testEnv){
 		this.testEnv = testEnv;
 	  }
 		 	

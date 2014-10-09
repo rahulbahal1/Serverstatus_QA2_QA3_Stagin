@@ -8,7 +8,7 @@ public class Health_check {
 	CSVHandler login_details = null;
 	public void health_login(RemoteWebDriver driver ) throws Exception {
 	//String b = Integer.toString(i);
-        String baseurl = "http://qa3.myngconnect.com/";
+        String baseurl = "http://qa2.myngconnect.com/";
         synchronized (driver){driver.wait(5000);}
         driver.get(baseurl + "/login/teacher/login.spr");
 	    driver.findElement(By.id("j_username")).clear();
