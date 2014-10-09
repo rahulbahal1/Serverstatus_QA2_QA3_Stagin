@@ -10,7 +10,7 @@ public class Health_check {
 	//String b = Integer.toString(i);
         String baseurl = "http://qa2.myngconnect.com/";
         synchronized (driver){driver.wait(5000);}
-        driver.get(baseurl + "/login/teacher/login.spr");
+        driver.get(baseurl + "login/teacher/login.spr");
 	    driver.findElement(By.id("j_username")).clear();
 		driver.findElement(By.id("j_username")).sendKeys("systemadmin@cengage.com");
 		driver.findElement(By.id("passwordField")).clear();
