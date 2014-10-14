@@ -54,7 +54,7 @@ class global
 	}
 
 //Take Base Screenshot
-@Test
+@Ignore
 public void Test_Health_0_BaseScreenShot()throws Exception{
 Health_check h = new Health_check();
 CSVHandler login_details = new CSVHandler("src/test/resources/login_health_check_qa2.csv");
