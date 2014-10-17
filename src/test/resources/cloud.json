@@ -2,8 +2,8 @@
         "cloudProperties":
 		{
 			"remoteServerURL": "http://192.168.1.200:9090/wd/hub/",
-			"sauceLabsServerURL": "http://premranjan23:03150061-24b0-46f4-bb7b-ed475260d786@ondemand.saucelabs.com:80/wd/hub",
-			"userName": "premranjan23",
-			"accessKey": "03150061-24b0-46f4-bb7b-ed475260d786"
+			"sauceLabsServerURL": "http://premranjan24:6e9a5a87-76e8-47e2-9fb3-3814180910ba@ondemand.saucelabs.com:80/wd/hub",
+			"userName": "premranjan24",
+			"accessKey": "6e9a5a87-76e8-47e2-9fb3-3814180910ba"
 		}
 }
